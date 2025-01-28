@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>支援中心</title>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #5c7cfa;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .google-form {
+            margin: 2rem 0;
+        }
+        .google-form iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        .external-link {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .external-link a {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: #5c7cfa;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+        .external-link a:hover {
+            background: #364fc7;
+        }
+	</style>
+</head>
+<body>
+<header>
+	<h1>支援中心</h1>
+	<p>我們隨時樂意協助您！</p>
+</header>
+<div class="container">
+	<h2>聯絡我們</h2>
+	<p>如有任何問題或建議，您可以透過以下 Google 表單提交反饋：</p>
+
+	<!-- 嵌入 Google 表單 -->
+	<div class="google-form">
+		<iframe
+				src="https://docs.google.com/forms/d/e/1FAIpQLSe3jvqJnuPtirsG1E75MDuWH1WurxoGQgnTgUUXbGlSkRzhBw/viewform?usp=dialog"
+				frameborder="0"
+				allowfullscreen>
+		</iframe>
+	</div>
+
+	<!-- 外部鏈接到 Google 表單 -->
+	<div class="external-link">
+		<p>或點擊以下按鈕，前往 Google 表單填寫：</p>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSe3jvqJnuPtirsG1E75MDuWH1WurxoGQgnTgUUXbGlSkRzhBw/viewform?usp=dialog" target="_blank">填寫表單</a>
+	</div>
+</div>
+</body>
+</html>
